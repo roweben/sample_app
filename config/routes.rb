@@ -1,4 +1,7 @@
 SampleApp::Application.routes.draw do
+#match '/static_pages/contact', :to =>'static_pages#contact'
+
+
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
